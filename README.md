@@ -81,8 +81,7 @@ pip install -r requirements.txt
 
 ## Data Sources
 
-Raw data files are not included in this repository. 
-To reproduce the analysis:
+Due to licensing restrictions, raw data files are not included. You can obtain them from:
 
 ### Carbon Intensity Data
 - **Source**: [Electricity Maps](https://app.electricitymaps.com/datasets?zone=CH)
