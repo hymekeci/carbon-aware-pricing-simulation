@@ -167,13 +167,13 @@ The simulation compares three pricing schemes:
    - Discrete signal: high prices only during top 10% carbon hours
    - Builds on TOU structure
 
-3. **CA-Hourly (Carbon-Aware Hourly Pricing)** — Continuous Intervention
+3. **CA-Hourly (Carbon-Aware Hourly Pricing)** — More Frequent Intervention
    ```
    P_CA-Hourly(t) = P_base × [1 + α × (CI(t) - CI_ref) / CI_ref]
    ```
    - α = 0.40 (carbon sensitivity)
    - Price bounds: [0.50×, 2.00×] of base price
-   - Continuous signal: prices reflect full carbon intensity distribution
+   - Hourly signal: prices reflect full carbon intensity distribution
 
 ### Behavioral Model
 
@@ -236,4 +236,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - [Electricity Maps](https://www.electricitymaps.com/) for carbon intensity data
-- Swiss Federal Office of Energy for consumption data
+- [Swiss Federal Office of Energy](https://www.swissgrid.ch/en/home/operation/grid-data/generation.html) for consumption data
