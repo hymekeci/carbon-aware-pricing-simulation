@@ -167,7 +167,7 @@ The simulation compares three pricing schemes:
    - Discrete signal: high prices only during top 10% carbon hours
    - Builds on TOU structure
 
-3. **CA-Hourly (Carbon-Aware Hourly Pricing)** — More Frequent Intervention
+3. **CA-Hourly (Carbon-Aware Hourly Pricing)** — Hourly Intervention
    ```
    P_CA-Hourly(t) = P_base × [1 + α × (CI(t) - CI_ref) / CI_ref]
    ```
