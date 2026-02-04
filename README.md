@@ -237,3 +237,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Electricity Maps](https://www.electricitymaps.com/) for carbon intensity data
 - [Swiss Federal Office of Energy](https://www.swissgrid.ch/en/home/operation/grid-data/generation.html) for consumption data
+
+This project was developed with assistance from AI tool (Claude, Anthropic) for:
+- Code review and debugging
+- Documentation writing
+- Visualization refinement
+
+All research design decisions, methodology, and interpretations are the author's own work.
