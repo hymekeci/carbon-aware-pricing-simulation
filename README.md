@@ -81,8 +81,12 @@ pip install -r requirements.txt
 
 ## Data Sources
 
+<<<<<<< HEAD
 Raw data files are not included in this repository.
 To reproduce the analysis:
+=======
+Due to licensing restrictions, raw data files are not included. You can obtain them from:
+>>>>>>> ed1c5d02157456544de98dbae43c8db606de2352
 
 ### Carbon Intensity Data
 - **Source**: [Electricity Maps](https://app.electricitymaps.com/datasets?zone=CH)
@@ -168,13 +172,13 @@ The simulation compares three pricing schemes:
    - Discrete signal: high prices only during top 10% carbon hours
    - Builds on TOU structure
 
-3. **CA-Hourly (Carbon-Aware Hourly Pricing)** — Continuous Intervention
+3. **CA-Hourly (Carbon-Aware Hourly Pricing)** — Hourly Intervention
    ```
    P_CA-Hourly(t) = P_base × [1 + α × (CI(t) - CI_ref) / CI_ref]
    ```
    - α = 0.40 (carbon sensitivity)
    - Price bounds: [0.50×, 2.00×] of base price
-   - Continuous signal: prices reflect full carbon intensity distribution
+   - Hourly signal: prices reflect full carbon intensity distribution
 
 ### Behavioral Model
 
@@ -237,4 +241,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - [Electricity Maps](https://www.electricitymaps.com/) for carbon intensity data
-- Swiss Federal Office of Energy for consumption data
+- [Swiss Federal Office of Energy](https://www.swissgrid.ch/en/home/operation/grid-data/generation.html) for consumption data
+
+This project was developed with assistance from AI tool (Claude, Anthropic) for:
+- Code review and debugging
+- Documentation writing
+- Visualization refinement
+
+All research design decisions, methodology, and interpretations are the author's own work.
