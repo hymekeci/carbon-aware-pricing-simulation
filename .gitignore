@@ -102,7 +102,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-
+data/
 # Results (generated, not tracked)
 results/*.csv
 results/*.txt
