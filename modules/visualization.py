@@ -374,7 +374,7 @@ class ThesisFigures:
                     xytext=(0, 5), textcoords="offset points", ha='center', fontsize=12, fontweight='bold', color='green')
 
         ax.set_ylabel('Total Emissions (ktCO₂)')
-        ax.set_title('Annual Emissions by Pricing Scheme')
+        ax.set_title('Cumulative Emissions (4 Years) by Pricing Scheme')
         ax.set_ylim(0, e_tou * 1.15)
 
         plt.tight_layout()

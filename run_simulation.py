@@ -41,7 +41,7 @@ from modules import (
     ResultsExporter,
     ThesisFigures,
     run_sensitivity_analysis,
-    run_rebound_analysis  # NEW
+    run_rebound_analysis
 )
 
 

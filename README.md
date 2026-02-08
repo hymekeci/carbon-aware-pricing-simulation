@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 ## Data Sources
 
-Raw data files are not included in this repository. 
+Raw data files are not included in this repository.
 To reproduce the analysis:
 
 ### Carbon Intensity Data
