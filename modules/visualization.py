@@ -375,6 +375,7 @@ class ThesisFigures:
 
         ax.set_ylabel('Total Emissions (ktCO₂)')
         ax.set_title('Cumulative Emissions (4 Years) by Pricing Scheme')
+
         ax.set_ylim(0, e_tou * 1.15)
 
         plt.tight_layout()
